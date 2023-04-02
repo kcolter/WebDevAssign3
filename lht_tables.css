@@ -72,8 +72,7 @@
       background-image: url('lht_photo1.png');
       background-repeat: no-repeat;
       background-size: 40%;
-      bottom: 0;
-      right: 0;
+      background-position: bottom right;
       border: double 6px rgb(154, 64, 3);
       border-collapse: collapse;
       margin-top: 20px;

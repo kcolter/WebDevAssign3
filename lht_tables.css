@@ -88,7 +88,7 @@
       font-size: 0.85em;
       font-weight: normal;
       padding: 5px;
-      text-align: center;
+      text-align: left;
       width: 14.28%;
       word-wrap: normal;
    }
@@ -96,12 +96,12 @@
    td{
       background-color: rgba(171, 171, 171, 0.6);
       color: rgb(11, 12, 145);
+      vertical-align: top;
    }
 
    td[data-date~="Sep"]{
       background-color: rgba(232, 214, 148, 0.6);
       box-shadow: 0 0 20px inset gray;
-      
    }
 
    caption{

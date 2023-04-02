@@ -36,6 +36,27 @@
       font-size: 1.5em;
       line-height: 2em;
    }
+
+   td{
+      border: 1px dotted grey;
+      color: rgb(11,12,145);
+      position: relative;
+      padding-left: 40%;
+      min-height: 40px;
+   }
+
+   tr:nth-of-type(odd){
+      background-color: rgb(255, 235, 178);
+      border: 2px solid grey;
+   }
+
+   td::before{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 40%;
+      content: attr(data-date);
+   }
 }
 
 

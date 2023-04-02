@@ -104,4 +104,12 @@
       
    }
 
+   caption{
+      top: 0;
+      text-align: center;
+      padding-bottom: 10px;
+      font-size: 1.2em;
+      letter-spacing: 3px;
+   }
+
 }
